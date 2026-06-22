@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ .Content }}
-  {{ range site.RegularPages }}
+  {{ range .Paginator.Pages }}
     <section>
       <div>
         <a href="{{ .RelPermalink }}">{{ .Date }}</a>
@@ -11,4 +11,6 @@
       </div>
     </section>
   {{ end }}
+
+  {{ partial "pagination.html" . }}
 {{ end }}

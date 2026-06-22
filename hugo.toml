@@ -2,3 +2,6 @@ baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'Microblog'
 theme = "microblog"
+
+[pagination]
+    pagerSize = 20
