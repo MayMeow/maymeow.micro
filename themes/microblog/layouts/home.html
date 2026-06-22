@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ range site.RegularPages }}
+    <section>
+      <div>
+        <a href="{{ .RelPermalink }}">{{ .Date }}</a>
+      </div>
+      <div>
+        {{ $plainContentWithEmoji := (print .Params.emoji " " .Plain) }}
+        {{ $plainContentWithEmoji | markdownify | emojify }}
+      </div>
+    </section>
+  {{ end }}
+{{ end }}
