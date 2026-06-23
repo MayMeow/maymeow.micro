@@ -1,7 +1,11 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
-title = 'Microblog'
+title = 'maymeow.fyi'
 theme = "microblog"
 
 [pagination]
     pagerSize = 20
+
+[params.Author]
+    name = 'May Meow'
+    url = 'https://catgirl.sk'

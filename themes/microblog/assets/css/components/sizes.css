@@ -1,0 +1,15 @@
+:root {
+    --space-0: 0rem;
+    --space-3XS: .125rem;
+    --space-2XS: .25rem; 
+    --space-XS: .5rem;
+    --space-S: .75rem; 
+    --space-M: 1rem;
+    --space-ML: 1.25rem;
+    --space-L: 1.5rem;
+    --space-XL: 2rem;
+    --space-2XL: 2.5rem;
+    --space-3XL: 3rem;
+    --space-4XL: 4rem;
+    --space-5XL: 5rem;
+}
