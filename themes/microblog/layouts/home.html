@@ -3,7 +3,7 @@
   {{ range .Paginator.Pages }}
     <section>
       <div class="post-meta">
-        <a href="{{ .RelPermalink }}">{{ .Date | time.Format "January 2, 2006" }}</a>
+        <a href="{{ .RelPermalink }}">{{ .Date | time.Format "January 2, 2006 @ 15:04" }}</a>
       </div>
       <div>
         {{ $plainContentWithEmoji := (print .Params.emoji " " .Plain) }}
