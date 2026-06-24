@@ -40,7 +40,7 @@ async function loadSyndicationLinks() {
         </a>`;
         }).join('');
         
-        container.innerHTML = `<div class="syndication-posts">${linksHtml}</div>`;
+        container.innerHTML = `<div class="syndication-posts"><p>Post was syndicated to:</p>${linksHtml}</div>`;
         
     } catch (error) {
         console.error('Error loading syndication links:', error);
