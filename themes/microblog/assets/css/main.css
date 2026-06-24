@@ -155,3 +155,26 @@ footer {
   font-size: 0.875rem;
   color: var(--subtext1);
 }
+
+.syndication-links {
+  margin-top: var(--space-XL);
+}
+
+.syndication-posts {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-S);
+  margin-top: var(--space-S);
+
+  a {
+    background-color: var(--mantle);
+    padding: 5px 10px;
+    border-radius: var(--space-S);
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: var(--blue);
+    color: var(--mantle);
+  }
+}

@@ -38,9 +38,9 @@ async function loadSyndicationLinks() {
         return `<a href="${displayUrl}" target="_blank" title="${link.type} - ${link.date}">
             ${icon} ${url.hostname}
         </a>`;
-        }).join('');
+        }).join(' ');
         
-        container.innerHTML = `<div class="syndication-posts"><p>Post was syndicated to:</p>${linksHtml}</div>`;
+        container.innerHTML = `<p>Post was syndicated to:</p><div class="syndication-posts">${linksHtml}</div>`;
         
     } catch (error) {
         console.error('Error loading syndication links:', error);
