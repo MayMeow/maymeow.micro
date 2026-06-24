@@ -24,9 +24,10 @@ async function loadSyndicationLinks() {
     
     // Create syndication links HTML
     const linksHtml = links.map(link => {
+      const url = new URL(link.url)
       const icon = link.type === 'masto' ? '🐘' : '🦋'; // Mastodon vs Bluesky
       return `<a href="${link.url}" target="_blank" title="${link.type} - ${link.date}">
-        ${icon} ${link.type}
+        ${icon} ${url.hostname}
       </a>`;
     }).join('');
     
