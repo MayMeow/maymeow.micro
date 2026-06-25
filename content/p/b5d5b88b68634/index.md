@@ -5,4 +5,4 @@ title = 'B5d5b88b68634'
 emoji = '👾'
 +++
 
-Test of syndication servie. Sorry for spam ;)
+Test of syndication service. Sorry for spam ;)
