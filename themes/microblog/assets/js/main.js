@@ -5,7 +5,7 @@ async function loadSyndicationLinks() {
     try {
         const currentUrl = window.location.href;
         
-        const response = await fetch('/syndication.json');
+        const response = await fetch('https://maymeow-syndications.b-cdn.net/maymeow.microblog-syndication.json');
         const syndicationData = await response.json();
         
         // Find syndication for current page
