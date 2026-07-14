@@ -82,6 +82,7 @@ select {
 /* Custom styles for the microblog theme */
 
 .microblog {
+  --meow-accent-color: var(--blue);
   background-color: var(--base);
   color: var(--text);
   font-family: 'Inter', sans-serif;
@@ -97,7 +98,7 @@ select {
   margin: 0 auto;
   
   a {
-    color: var(--blue);
+    color: var(--meow-accent-color);
   }
 }
 
@@ -146,7 +147,7 @@ header {
   height: 100px;
   border-radius: 50%;
   margin-bottom: var(--space-M);
-  border: 2px solid var(--blue);
+  border: 2px solid var(--meow-accent-color);
 }
 
 footer {
@@ -174,7 +175,7 @@ footer {
   }
 
   a:hover {
-    background-color: var(--blue);
+    background-color: var(--meow-accent-color);
     color: var(--mantle);
   }
 }
