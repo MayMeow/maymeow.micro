@@ -1,6 +1,6 @@
 +++
 date = '2026-07-19T21:57:31+02:00'
-draft = true
+draft = false
 title = 'B772dae94fa04'
 +++
 
